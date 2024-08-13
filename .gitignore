@@ -1,0 +1,24 @@
+# Visual Studio / .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userprefs
+packages/
+*.nupkg
+[Dd]ebug/
+[Rr]elease/
+publish/
+*.pubxml.user
+TestResults/
+
+# Secrets / real configuration (never commit)
+.env
+*.env
+set-env.ps1
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+firebase-config.json
+*credentials*
